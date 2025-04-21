@@ -37,6 +37,7 @@ This is a UI Automation Testing project developed to validate an e-commerce flow
 
 Paymob_Task │ ├── src │ ├── main │ │ ├── java │ │ │ └── Pages │ │ │ ├── createAccountPage.java │ │ │ ├── homePage.java │ │ │ └── pageBase.java │ │ └── resources │ │ └── CreateAccountData.xlsx │ ├── test │ └── java │ ├── Paymob_Cases │ │ └── TestCases.java │ ├── TestBase │ │ └── testBase.java │ └── utiles │ ├── assertionHelper.java │ ├── excelReader.java │ └── Screenshots.java │ ├── pom.xml ├── README.md └── .gitignore
 
+---
 
 ## ▶️ How to Run the Tests
 
@@ -44,7 +45,15 @@ Paymob_Task │ ├── src │ ├── main │ │ ├── java │ │ 
 mvn clean test
 
 ---
-## 👤 Author
+## 📊 Generate Allure Report
+- **After executing the tests:**
+**Use this command in the CMD** allure serve allure-results
+- **Or to generate and open manually:**
+allure generate allure-results --clean -o allure-report
+allure open allure-report
+---
+
+## ▶️ How to Run the Tests
 
 - **Created by Sayed Salah El-Din**
 - **Role: QA Automation Engineer**
