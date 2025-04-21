@@ -35,7 +35,29 @@ This is a UI Automation Testing project developed to validate an e-commerce flow
 
 ## 🧠 Project Structure
 
-Paymob_Task │ ├── src │ ├── main │ │ ├── java │ │ │ └── Pages │ │ │ ├── createAccountPage.java │ │ │ ├── homePage.java │ │ │ └── pageBase.java │ │ └── resources │ │ └── CreateAccountData.xlsx │ ├── test │ └── java │ ├── Paymob_Cases │ │ └── TestCases.java │ ├── TestBase │ │ └── testBase.java │ └── utiles │ ├── assertionHelper.java │ ├── excelReader.java │ └── Screenshots.java │ ├── pom.xml ├── README.md └── .gitignore
+Paymob_Task │ 
+  ├── src │ 
+    ├── main │ 
+      │ ├── java │ 
+        │ │ └── Pages │ 
+          │ │ ├── createAccountPage.java │
+          │ │ ├── homePage.java │ 
+          │ │ └── pageBase.java │ 
+        │ └── resources │ 
+          │ └── CreateAccountData.xlsx │ 
+    ├── test │ 
+      └── java │ 
+        ├── Paymob_Cases │ 
+          │ └── TestCases.java │ 
+        ├── TestBase │ 
+          │ └── testBase.java │ 
+        └── utiles │ 
+          ├── assertionHelper.java │ 
+          ├── excelReader.java │ 
+          └── Screenshots.java │ 
+  ├── pom.xml 
+  ├── README.md 
+  └── .gitignore
 
 ---
 
@@ -54,9 +76,11 @@ mvn clean test
 - **Or to generate and open manually:**
 allure generate allure-results --clean -o allure-report
 allure open allure-report
+
 ---
 
-# 👤 Author
+
+👤 Author
 
 - **Created by Sayed Salah El-Din**
 - **Role: QA Automation Engineer**
