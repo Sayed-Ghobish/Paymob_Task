@@ -44,10 +44,10 @@ Paymob_Task │ ├── src │ ├── main │ │ ├── java │ │ 
 mvn clean test
 
 ---
+## 👤 Author
 
-👤 Author
-Created by Sayed Salah El-Din
-Role: QA Automation Engineer
+- **Created by Sayed Salah El-Din**
+- **Role: QA Automation Engineer**
 Always open to feedback and collaboration!
 
 
