@@ -65,7 +65,7 @@ Paymob_Task │
 
 - **Created by Sayed Salah El-Din**
 - **Role: QA Automation Engineer**
-Always open to feedback and collaboration!
+- Always open to feedback and collaboration!
 
 ----
 
@@ -75,7 +75,7 @@ Always open to feedback and collaboration!
 mvn clean test
 
 
----
+----
 
 
 # 📊 Generate Allure Report
