@@ -44,8 +44,11 @@ Paymob_Task │ ├── src │ ├── main │ │ ├── java │ │ 
 ```bash
 mvn clean test
 
+
 ---
-## 📊 Generate Allure Report
+
+
+# 📊 Generate Allure Report
 - **After executing the tests:**
 **Use this command in the CMD** allure serve allure-results
 - **Or to generate and open manually:**
@@ -53,7 +56,7 @@ allure generate allure-results --clean -o allure-report
 allure open allure-report
 ---
 
-## ▶️ How to Run the Tests
+# 👤 Author
 
 - **Created by Sayed Salah El-Din**
 - **Role: QA Automation Engineer**
