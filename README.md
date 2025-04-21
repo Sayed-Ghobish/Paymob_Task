@@ -61,6 +61,15 @@ Paymob_Task │
 
 ---
 
+# 👤 Author
+
+- **Created by Sayed Salah El-Din**
+- **Role: QA Automation Engineer**
+Always open to feedback and collaboration!
+
+----
+
+## ▶️ How to Run the Tests
 
 ```bash
 mvn clean test
@@ -79,10 +88,6 @@ allure open allure-report
 ---
 
 
-# 👤 Author
 
-- **Created by Sayed Salah El-Din**
-- **Role: QA Automation Engineer**
-Always open to feedback and collaboration!
 
 
